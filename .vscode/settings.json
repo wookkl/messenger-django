@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/wookkl/.local/share/virtualenvs/messenger-django-WW-5IPyf/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--max-line-length","119"],
+}
