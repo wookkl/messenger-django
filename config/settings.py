@@ -41,6 +41,8 @@ DJANGO_APPS = [
 PROJECT_APPS = [
     "core.apps.CoreConfig",
     "users.apps.UsersConfig",
+    "comments.apps.CommentsConfig",
+    "friends.apps.FriendsConfig",
     "pheeds.apps.PheedsConfig",
     "conversations.apps.ConversationsConfig",
 ]
