@@ -19,3 +19,6 @@ class Pheed(TimeStampedModel):
     user = models.ForeignKey(
         "users.User", related_name="pheeds", on_delete=models.CASCADE
     )
+
+    def __str__(self):
+        return f"{self.user.username}'s Pheed {self.pk}"
