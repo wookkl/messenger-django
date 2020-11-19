@@ -9,3 +9,6 @@ class Friend(models.Model):
         "users.User", related_name="owner", on_delete=models.CASCADE
     )
     friend = models.ManyToManyField("users.User")
+
+    def __str__(self):
+        return f"{self.user.username}'s {self.user.get_friends_count()} friends"
